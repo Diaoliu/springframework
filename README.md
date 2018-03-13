@@ -5,8 +5,8 @@
 Spring的各个模块都是相对独立的，码农们可以按照自己的需求在pom清单从导入需要的模块。 这些模块的功能如下:
 
 * **Core technologies**: Spring Core
- * 依赖注入, 支持Java依赖注入标准(JSR-330)或者Spring自己的那些注解
- * AOP切面编程，把相同的代码片段插入到目标方法中
+  * 依赖注入, 支持Java依赖注入标准(JSR-330)或者Spring自己的那些注解
+  * AOP切面编程，把相同的代码片段插入到目标方法中
 * **Testing**: 各种测试工具
 * **Data Access**: JDBC Template加强版、整合JPA(Java Persistence API)和Hibernate(JPA的实现)
 * **Spring MVC**: Dispatcher Servlet拦截所有匹配URL的请求，分发到各个控制器中处理请求(就是各种花样CRUD)
