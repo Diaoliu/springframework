@@ -1,10 +1,10 @@
 ## 有点不太全的Spring Framework示例代码
 
-首先贴上Spring的整体架构图，Spring的各个模块都是相对独立的，码农们可以按照自己的需求在pom清单从导入需要的模块。 这些模块的功能如下:
+> 下文中所有关于Spring的介绍都不保证正确，只是个人的猜测和总结分析，全文大白话，便于自己和他人参考。
 
-![Spring Modules](https://static.oschina.net/uploads/space/2017/0525/110552_117j_2348362.png)
+Spring的各个模块都是相对独立的，码农们可以按照自己的需求在pom清单从导入需要的模块。 这些模块的功能如下:
 
-* **Core technologies**: 
+* **Core technologies**: Spring Core
  * 依赖注入, 支持Java依赖注入标准(JSR-330)或者Spring自己的那些注解
  * AOP切面编程，把相同的代码片段插入到目标方法中
 * **Testing**: 各种测试工具
